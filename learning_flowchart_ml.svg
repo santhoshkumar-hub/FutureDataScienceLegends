@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="3200" viewBox="0 0 1200 3200">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333" />
+    </marker>
+  </defs>
+  <style>
+    .box { fill:#f6f8fa; stroke:#2d2d2d; stroke-width:1.5px; rx:8; }
+    .title { font: bold 20px sans-serif; fill:#111; }
+    .item { font: 16px sans-serif; fill:#111; }
+    .section { font: bold 18px sans-serif; fill:#fff; }
+    .section-bg { fill:#0366d6; rx:6; }
+    .note { font: 14px sans-serif; fill:#444; }
+  </style>
+
+  <!-- Header -->
+  <rect x="60" y="20" width="1080" height="70" class="section-bg" />
+  <text x="80" y="62" class="section">Learning Flowchart — Beginner (based on repository)</text>
+
+  <!-- Prerequisites -->
+  <rect x="110" y="120" width="980" height="110" class="box" />
+  <text x="140" y="150" class="title">Prerequisites</text>
+  <text x="140" y="180" class="item">• 01. Python</text>
+  <text x="140" y="205" class="item">• 02. Statistics</text>
+
+  <!-- Arrow to Supervised -->
+  <line x1="600" y1="230" x2="600" y2="300" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Supervised Learning -->
+  <rect x="110" y="320" width="980" height="220" class="box" />
+  <text x="140" y="355" class="title">Supervised Learning (Core)</text>
+  <text x="140" y="385" class="item">• 04. Linear Regression</text>
+  <text x="140" y="410" class="item">• 06. Polynomial Regression</text>
+  <text x="140" y="435" class="item">• 07. Overfitting and Regularization</text>
+  <text x="140" y="460" class="item">• 08. Logistic Regression</text>
+  <text x="140" y="485" class="item">• 09. KNN</text>
+  <text x="420" y="385" class="item">• 10. Naive Bayes</text>
+  <text x="420" y="410" class="item">• 11. Support Vector Machine</text>
+  <text x="420" y="435" class="item">• 12. Decision Tree</text>
+  <text x="420" y="460" class="item">• 13. Ensemble Methods</text>
+
+  <!-- Arrow to Unsupervised -->
+  <line x1="600" y1="540" x2="600" y2="620" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Unsupervised -->
+  <rect x="110" y="640" width="980" height="120" class="box" />
+  <text x="140" y="675" class="title">Unsupervised Learning</text>
+  <text x="140" y="705" class="item">• 15. Unsupervised Learning</text>
+  <text x="140" y="730" class="item">• 16. PCA</text>
+
+  <!-- Arrow to Clustering/Dimensionality -->
+  <line x1="600" y1="760" x2="600" y2="840" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Text/NLP area -->
+  <rect x="110" y="860" width="980" height="400" class="box" />
+  <text x="140" y="895" class="title">Natural Language Processing (NLP)</text>
+  <text x="140" y="925" class="item">• 26. NLP Preprocessing</text>
+  <text x="140" y="950" class="item">• 27. Text to Numbers — Cosine Similarity</text>
+  <text x="140" y="975" class="item">• 28. Text Clustering</text>
+  <text x="140" y="1000" class="item">• 29. Text Classification</text>
+  <text x="140" y="1025" class="item">• 30. Topic Modelling</text>
+  <text x="140" y="1050" class="item">• 31. Seq2Seq — Machine Translation</text>
+  <text x="140" y="1075" class="item">• 32. Transformer</text>
+  <text x="140" y="1100" class="item">• 33. BERT</text>
+  <text x="140" y="1125" class="item">• 34. BART</text>
+
+  <!-- Arrow to Deep Learning -->
+  <line x1="600" y1="1260" x2="600" y2="1340" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Deep Learning / Sequence -->
+  <rect x="110" y="1340" width="980" height="220" class="box" />
+  <text x="140" y="1375" class="title">Deep Learning & Sequence Models</text>
+  <text x="140" y="1405" class="item">• 22. Neural Network Introduction</text>
+  <text x="140" y="1430" class="item">• 25. RNN — LSTM</text>
+  <text x="420" y="1405" class="item">• 35. GPT-1</text>
+  <text x="420" y="1430" class="item">• 36. GPT-2</text>
+  <text x="420" y="1455" class="item">• 37. GPT-3</text>
+
+  <!-- Arrow to Computer Vision -->
+  <line x1="600" y1="1560" x2="600" y2="1640" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Computer Vision -->
+  <rect x="110" y="1660" width="980" height="120" class="box" />
+  <text x="140" y="1695" class="title">Computer Vision</text>
+  <text x="140" y="1725" class="item">• 23. Computer Vision</text>
+  <text x="140" y="1750" class="item">• 24. Object Detection (YOLO + OpenCV)</text>
+
+  <!-- Arrow to Foundation Models & Agents -->
+  <line x1="600" y1="1780" x2="600" y2="1860" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Foundation Models / Agents / Tools -->
+  <rect x="110" y="1880" width="980" height="420" class="box" />
+  <text x="140" y="1915" class="title">Foundation Models, Agents & Tools</text>
+  <text x="140" y="1945" class="item">• 38. Prompt Engineer</text>
+  <text x="140" y="1970" class="item">• 39. Vector DB</text>
+  <text x="140" y="1995" class="item">• 40. Langchain</text>
+  <text x="140" y="2020" class="item">• 41. Langraph</text>
+  <text x="140" y="2045" class="item">• 44. Vision Language Model</text>
+  <text x="480" y="1945" class="item">• 43. Bedrock Agentcore</text>
+  <text x="480" y="1970" class="item">• 42. Strands Agent Usecase (Device Mgmt)</text>
+  <text x="480" y="1995" class="item">• 46. Production Challenges & Secured Agents</text>
+  <text x="480" y="2020" class="item">• 45. Mixture of Experts</text>
+
+  <!-- Arrow to MLOps & Deployment -->
+  <line x1="600" y1="2320" x2="600" y2="2400" stroke="#333" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- MLOps / Deployment / Project -->
+  <rect x="110" y="2400" width="980" height="260" class="box" />
+  <text x="140" y="2435" class="title">MLOps, Deployment & Project Skills</text>
+  <text x="140" y="2465" class="item">• 19. MLOps</text>
+  <text x="140" y="2490" class="item">• 18. AutoML</text>
+  <text x="140" y="2515" class="item">• 14. API / WebApp / Docker / AWS / Streamlit Deploy</text>
+  <text x="140" y="2540" class="item">• 05. Docker + FastAPI + Cloud Run (CI/CD)</text>
+  <text x="140" y="2565" class="item">• 20. Build a Data Science Project Story</text>
+  <text x="140" y="2590" class="item">• 21. Mock Interview Outcome</text>
+
+  <!-- Footer note -->
+  <text x="80" y="2860" class="note">Flow order (recommended): Prerequisites → Supervised → Unsupervised → NLP/Deep Learning → CV → Foundation Models/Agents → MLOps & Deployment → Project/Interview prep</text>
+  <text x="80" y="2885" class="note">This diagram was generated from the repository structure of santhoshkumar-hub/FutureDataScienceLegends. Each numbered folder corresponds to a learning module in the repo.</text>
+
+  <!-- Small legend -->
+  <rect x="80" y="2920" width="1040" height="200" class="box" />
+  <text x="100" y="2955" class="title">How to use</text>
+  <text x="100" y="2985" class="item">• Follow top→down. Complete fundamentals before moving to specialized modules (NLP, CV, Transformers).</text>
+  <text x="100" y="3010" class="item">• For hands-on, open the folder with the matching number in the repo and follow its README / notebooks.</text>
+
+</svg>
